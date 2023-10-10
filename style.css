@@ -1,0 +1,22 @@
+div {
+  border: 1px solid black;
+  height: 50px;
+  width: 50px;
+  border-radius: 10%;
+  margin-bottom: 10px;
+}
+
+article {
+  width: 200px;
+  height: 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.on {
+  background-color: white;
+}
+
+.off {
+  background-color: black;
+}
